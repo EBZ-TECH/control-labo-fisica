@@ -1,7 +1,7 @@
-{
+﻿{
   "name": "control-acceso-lab-web",
   "private": true,
   "scripts": {
-    "build": "node scripts/write-bridge-config.js"
+    "build": "node scripts/build-static.js"
   }
 }

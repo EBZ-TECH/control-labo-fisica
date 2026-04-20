@@ -1,0 +1,9 @@
+﻿# Secrets
+fase3-python/clave_firebase.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local generated
+bridge-config.js

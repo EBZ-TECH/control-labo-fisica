@@ -7,3 +7,4 @@ __pycache__/
 
 # Local generated
 bridge-config.js
+public/

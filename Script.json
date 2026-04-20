@@ -1,0 +1,26 @@
+{
+    "usuarios": {
+      "user_001": {
+        "nombre": "Juan Perez",
+        "email": "juan@gmail.com"
+      }
+    },
+    "reservas": {
+      "res_001": {
+        "codigo": "A7F3K9",
+        "user_id": "user_001",
+        "fecha": "2026-04-14",
+        "hora_inicio": "14:00",
+        "tiempo_min": 60,
+        "estado": "activo"
+      }
+    },
+    "accesos": {
+      "log_001": {
+        "codigo": "A7F3K9",
+        "fecha": "2026-04-14",
+        "hora_ingreso": "14:05",
+        "resultado": "permitido"
+      }
+    }
+  }

@@ -1,0 +1,19 @@
+# Blueprint en la raíz del repo (Render detecta rootDir).
+# Variable secreta: FIREBASE_SERVICE_ACCOUNT_JSON = JSON completo de la cuenta de servicio (una línea).
+# URL del servicio -> Vercel: BRIDGE_PUBLIC_URL
+
+services:
+  - type: web
+    name: control-acceso-lab-bridge
+    runtime: python
+    plan: free
+    rootDir: fase3-python
+    buildCommand: pip install -r requirements.txt
+    startCommand: SKIP_SERIAL=1 HEADLESS=1 python main.py
+    envVars:
+      - key: SKIP_SERIAL
+        value: "1"
+      - key: HEADLESS
+        value: "1"
+      - key: FIREBASE_SERVICE_ACCOUNT_JSON
+        sync: false
